@@ -1,0 +1,28 @@
+package com.sunbeam;
+
+import com.sunbeam.BSTree.Node;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+	BSTree b = new BSTree();
+	b.addNode(10);
+	b.addNode(70);
+	b.addNode(50);
+	b.addNode(35);
+	b.addNode(67);
+//	b.inOrder();
+//	Node n= b.search(35,b.getroot());
+//	if(n!=null)
+//		System.out.println("Key found");
+//	}
+	
+	//b.deleteNode(50);
+	//b.inOrder();
+    int ab=b.getLeafCount(b.getroot());
+    System.out.println(ab);
+  
+	
+	}
+}
